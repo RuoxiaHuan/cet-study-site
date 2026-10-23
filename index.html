@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CET 四六级学习站</title>
+<meta name="description" content="四六级单词学习与复习：每日新词、间隔重复、例句发音、真题练习">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<!-- ═══════════ 顶部导航 ═══════════ -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/home">
+      <span class="brand-mark">CET</span>
+      <span class="brand-text">四六级学习站</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/home"    data-route="home">首页</a>
+      <a href="#/learn"   data-route="learn">学习</a>
+      <a href="#/review"  data-route="review">复习</a>
+      <a href="#/history" data-route="history">历史</a>
+      <a href="#/quiz"    data-route="quiz">题型练习</a>
+      <a href="#/words"   data-route="words">生词本</a>
+      <a href="#/wrong"   data-route="wrong">错题本</a>
+      <a href="#/stats"   data-route="stats">统计</a>
+      <a href="#/settings" data-route="settings">设置</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+  </div>
+  <div class="levelbar" id="levelbar"></div>
+</header>
+
+<!-- ═══════════ 主内容区（由 JS 渲染） ═══════════ -->
+<main class="main" id="app" aria-live="polite">
+  <div class="loading">
+    <div class="spinner"></div>
+    <p>正在加载词库…</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>词库来源：<a href="https://github.com/Pleniluner/English-vocabulary" target="_blank" rel="noopener">English-vocabulary</a>（开源）· 发音：有道词典接口 · 学习进度保存在本机浏览器</p>
+</footer>
+
+<!-- ═══════════ 脚本 ═══════════ -->
+<script src="src/store.js"></script>
+<script src="src/srs.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/data.js"></script>
+<script src="src/util.js"></script>
+<script src="src/quiz-data.js"></script>
+<script src="src/quiz.js"></script>
+<script src="src/pages.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

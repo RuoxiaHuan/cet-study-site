@@ -1,0 +1,22 @@
+{
+  "updated": "2026-10-23",
+  "source": "kajweb/dict (github, open source)",
+  "books": {
+    "cet4": {
+      "lv": "四级",
+      "file": "data/words-cet4.json",
+      "count": 4216,
+      "withSentences": 4140,
+      "withExam": 251,
+      "withPhonetic": 4216
+    },
+    "cet6": {
+      "lv": "六级",
+      "file": "data/words-cet6.json",
+      "count": 3475,
+      "withSentences": 3403,
+      "withExam": 264,
+      "withPhonetic": 3475
+    }
+  }
+}
