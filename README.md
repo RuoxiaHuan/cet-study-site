@@ -1,5 +1,8 @@
 # CET 四六级学习站
 
+**在线地址：https://ruoxiahuan.github.io/cet-study-site/**
+仓库：[RuoxiaHuan/cet-study-site](https://github.com/RuoxiaHuan/cet-study-site)
+
 纯前端静态网站，选四级 / 六级，每天学新词、按间隔重复复习，配例句发音和真题题型练习。学习进度存在浏览器本地，不需要账号和服务器。
 
 ## 功能
